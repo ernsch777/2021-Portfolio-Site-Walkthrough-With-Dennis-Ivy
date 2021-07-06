@@ -1,1 +1,2 @@
 1. Another walk through tutorial on a portfolio site from a more experienced coder without as much of a social media presence. It's interesting because he already uses several lines of code that are not considered best practices, like in-line styling, but has been doing well for years. 
+2. I added some more sections and it's becoming easier and easier to understand the layout of sections, wrappers, divs, and grid vs. flexbos in general. 
