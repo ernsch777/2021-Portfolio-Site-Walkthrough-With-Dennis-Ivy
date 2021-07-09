@@ -16,6 +16,10 @@ html, body {
     margin: 0;
 }
 
+body *{
+    transition: .3s;
+}
+
 h1, h2, h3, h4, h5, h6, strong {
     color: var(--mainText);
     font-family: 'Russo One', sans-serif;
@@ -248,6 +252,10 @@ h6 {font-size: 16px;}
 .about-wrapper p {
     text-align: left;
 }
+
+.about-me {
+    padding: 0 10px;
+}
 #skills {
     display: flex;
     justify-content: space-evenly;
@@ -264,19 +272,19 @@ h6 {font-size: 16px;}
     text-align: center;
 }
 
-.s1 h3 {
+.s1 h3, .s2 h3 {
     text-align: center;
 }
 
 .post-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, 320px);
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     padding-bottom: 50px;
-	-webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	/* -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 	-moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+	box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75); */
 }
 
 .post {
@@ -334,15 +342,19 @@ h6 {font-size: 16px;}
     border: 1px solid var(--borderColor);
 }
 #submit-btn {
-    margin-top: 10px;
+    margin: 20px 0 10px 0;
     width: 100%;
     padding: 10px 0;
     color: white;
     background-color: var(--btnColor);
-    border: none;
+    border-radius: 5px;
+    font-size: 24px;
 }
 
-
+#submit-btn {
+    
+    border: 1px solid var(--previewShadow);
+}
 
 
 
