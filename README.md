@@ -1,4 +1,5 @@
 1. Another walk through tutorial on a portfolio site from a more experienced coder without as much of a social media presence. It's interesting because he already uses several lines of code that are not considered best practices, like in-line styling, but has been doing well for years. 
-2. I added some more sections and it's becoming easier and easier to understand the layout of sections, wrappers, divs, and grid vs. flexbos in general. 
+2. I added some more sections and it's becoming easier and easier to understand the layout of sections, wrappers, divs, and grid vs. flexbox in general. 
 3. Finished up the main page and started on the color option CSS file options and the About page.
 4. Javascript now working and color theme selection is working and retained for when you come back to the page. 
+5. Finished the site. Fixed the button text size, borders, and margins. Not sure why the input fields have a different width at 100% than the button, but will have to research that. Increased grid gap to look better on smaller screens. "About me" text wrapper needed padding at smaller sizes. Got rid of the floating black line on the text card section by deleting the unnecessary border shadebox. 
