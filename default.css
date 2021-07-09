@@ -8,6 +8,7 @@
     --previewBg: rgb(251, 249, 243, 0.8);
     --previewShadow: #f0ead6;
     --btnColor: black;
+    --postpreviewText:black;
 }
 
 html, body {
@@ -292,6 +293,9 @@ h6 {font-size: 16px;}
 .post-preview {
     background-color: white;
     padding: 15px;
+}
+.post-preview p {
+    color: var(--postpreviewText);
 }
 
 .post-title{

@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
-    <link rel="sty9*lesheet" href="default.css" type="text/css">
+    <link rel="stylesheet" href="default.css" type="text/css">
     <link id="theme-style" rel="stylesheet" href="blue.css" type="text/css">
 </head>
 <body>
@@ -22,7 +22,7 @@
                         <div class="browser-dot" id="dot-1">
 
                         </div>
-                        <div class="browser-dot" id="dot-2">
+                        <div class="browser-dot0" id="dot-2">
 
                         </div>
                         <div class="browser-dot" id="dot-3">
@@ -37,10 +37,10 @@
                     <img id="profile_pic"src="images/Dennis.jpg" alt="Dennis' profile picture">
                     <h5>Personalize Theme</h5>
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="green-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                        <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                     </div>
                     <p id="settings-note">
                         *Theme settings will be saved for <br> your next visit
@@ -145,5 +145,6 @@
             </h3>
         </div>
     </section>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
